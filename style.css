@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 3rem;
+}
+#counter{
+    font-size: 2em;
+}
+#btn{
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+#increase {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  #decrease {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  #reset {
+    background-color: #2196f3;
+    color: white;
+  }
